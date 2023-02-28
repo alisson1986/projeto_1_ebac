@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(182, 176, 176);
+    color: rgb(53, 48, 48);
+    padding: 16px 30px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: flex-start;
+}
+
+#apresentacao img {
+height: 375px;
+margin-right: 50px;
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Oleo Script', cursive;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+#foto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: flex-start;
+}
+
+#foto img {
+    height: 200px;
+    width: 200px;
+
+}
+
+#galeria {
+    background-color: rgb(75, 135, 226);
+    color: aliceblue;
+    padding: 5px 5px;
+    margin-top: 30px;
+}
+
+#contato{
+    background-color: rgb(140, 140, 245);
+    color: aliceblue;
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#siga {
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#fale {
+    background-color: rgb(100, 98, 0);
+    color: aliceblue;
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+main nav li {
+    display: inline;
+}
+
+main nav li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 30px;
+}
